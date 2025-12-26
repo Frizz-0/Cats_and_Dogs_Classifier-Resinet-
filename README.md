@@ -5,6 +5,8 @@
 [![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?logo=streamlit&logoColor=white)](https://streamlit.io/)
 [![Docker](https://img.shields.io/badge/Docker-2496ED?logo=docker&logoColor=white)](https://www.docker.com/)
 
+![demo](/Demo_Output.jpg?raw=true "demo")
+
 ## Project Overview
 
 This project is an end-to-end Computer Vision application that classifies images of cats and dogs. It utilizes a **Fine-Tuned ResNet18** architecture to achieve high accuracy, wrapped in a user-friendly **Streamlit** web interface, and containerized with **Docker** for seamless deployment.

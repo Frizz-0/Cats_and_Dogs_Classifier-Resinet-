@@ -10,3 +10,5 @@ data/
 /share
 pyvenv.cfg
 .dockerignore
+app_live_webcam.py
+main.py

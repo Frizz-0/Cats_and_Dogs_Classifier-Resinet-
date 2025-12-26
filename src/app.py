@@ -45,7 +45,7 @@ def predict_image(img_path, model):
         
         return label, confidence
 
-model = load_trained_model(r'models\CatsnDogs.pt',num_classes=2)
+model = load_trained_model(r'../models/CatsnDogs.pt',num_classes=2)
 # result = predict_image(r'x:\Python\ML\Projects\Cats_and_Dogs\images\00.jpg',model)
 # print(f'Prediction : {result}')
 

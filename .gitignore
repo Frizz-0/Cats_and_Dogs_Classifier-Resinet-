@@ -1,0 +1,12 @@
+__pycache__/
+.streamlit/
+data/
+*.pyc
+.env
+/Lib
+/etc
+/Include
+/Scripts
+/share
+pyvenv.cfg
+.dockerignore

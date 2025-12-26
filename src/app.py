@@ -5,6 +5,7 @@ import streamlit as st
 import numpy as np
 from PIL import Image
 import time
+import os
 
 device = torch.device("cuda" if torch.cuda.is_available() else 'cpu')
 
@@ -45,7 +46,10 @@ def predict_image(img_path, model):
         
         return label, confidence
 
-model = load_trained_model(r'../models/CatsnDogs.pt',num_classes=2)
+# Get absolute path based on current script location (works on Streamlit Cloud)
+current_dir = os.path.dirname(os.path.abspath(__file__))
+model_path = os.path.join(current_dir, '..', 'models', 'CatsnDogs.pt')
+model = load_trained_model(model_path, num_classes=2)
 # result = predict_image(r'x:\Python\ML\Projects\Cats_and_Dogs\images\00.jpg',model)
 # print(f'Prediction : {result}')
 

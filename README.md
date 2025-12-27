@@ -7,6 +7,10 @@
 
 ![demo](/Demo_Output.jpg?raw=true "demo")
 
+## Project Live Demo
+
+Click here for [Live Demo](https://cats-vs-dogs-ai.streamlit.app)
+
 ## Project Overview
 
 This project is an end-to-end Computer Vision application that classifies images of cats and dogs. It utilizes a **Fine-Tuned ResNet18** architecture to achieve high accuracy, wrapped in a user-friendly **Streamlit** web interface, and containerized with **Docker** for seamless deployment.
@@ -89,6 +93,6 @@ The model achieves:
 - 0.03 cross-entropy loss
 - Training time of ~20 minutes on GPU T4
 
-## License
+<!-- ## License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details. -->

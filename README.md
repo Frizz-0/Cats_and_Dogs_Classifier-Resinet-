@@ -9,7 +9,7 @@
 
 ## Project Live Demo
 
-Click here for [Live Demo](https://cats-vs-dogs-ai.streamlit.app)
+Click here for [Live Demo](https://cats-n-dogs-classification.streamlit.app)
 
 ## Project Overview
 
